@@ -27,6 +27,14 @@ const frases = {
         {
             text: '"La puerca esta en la pocilga".',
             audio: new Audio('./frases/homero/puerca.mp3')
+        },
+        {
+            text: '"En esta casa obecedemos las leyes de la termodinamica".',
+            audio: new Audio('./frases/homero/termodinamica.mp3')
+        },
+        {
+            text: '"Y si era tan listo por que se murio?".',
+            audio: new Audio('./frases/homero/listo.mp3')
         }
     ],
     Marge:
@@ -46,24 +54,71 @@ const frases = {
         {
             text: '"La punta de plastico de la agujeta de Bart... Una madre las reconoce".',
             audio: new Audio('./frases/marge/agujeta.mp3')
+        },
+        {
+            text: '-"Yo voy al comedor a hacer una conversacion. El que quiera ir conmigo es bienvenido... Que tal, Marge? Como esta la familia? Que te importa. No quiero hablar de eso". -"Ya callate, Marge".',
+            audio: new Audio('./frases/marge/callate.mp3')
         }
     ],
     Bart:
     [
         {
-            text: '"Ay, caramba".'
+            text: '"Ay, caramba".',
+            audio: new Audio('./frases/bart/caramba.mp3')
+        },
+        {
+            text: '"Yo no fui".',
+            audio: new Audio('./frases/bart/fui.mp3') 
+        },
+        {
+            text: '"Que te paso, viejo? Antes eras chevere".',
+            audio: new Audio('./frases/bart/chevere.mp3')
+        },
+        {
+            text: '"Nino rata? Eso ofende, viejo".',
+            audio: new Audio('./frases/bart/rata.mp3')
+        },
+        {
+            text: '"Soy el ojon, vengo de urano".',
+            audio: new Audio('./frases/bart/urano.mp3')
+        },
+        {
+            text: '"Solo hay una cosa que hacer en un momento asi... Caminar".',
+            audio: new Audio('./frases/bart/caminar.mp3')
+        },
+        {
+            text: '"No vives de ensalada. No vives de ensalada. No vives de ensalada. No vives de ensalada".',
+            audio: new Audio('./frases/bart/ensalada.mp3')
         }
     ],
     Lisa:
     [
         {
-            text: ''
+            text: '-"Un momento. Los rinocerontes no nacen en huevos". -"Que acabas de ver, Lisa?", -"Pues si, pero..." -"Que acabas de ver?".',
+            audio: new Audio('./frases/lisa/rinocerontes.mp3')
+        },
+        {
+            text: '"No es cierto. Usted esta mal. Todo este maldito sistema esta mal".',
+            audio: new Audio('./frases/lisa/sistema.mp3')
+        },
+        {
+            text: '-"Adios, Lisa preciosa. Estaras bien. Solo lee la nota". -"Tu eres Lisa Simpson".',
+            audio: new Audio('./frases/lisa/maestro.mp3')
+        },
+        {
+            text: '-"Por favor, Baby. Espere toda mi vida para oirte hablar. No tienes algo importante que decir?". -"No me preguntes. Solo soy una chica".',
+            audio: new Audio('./frases/lisa/stacy.mp3')
         }
     ],
     Maggie:
     [
         {
-            text: ''
+            text: '"Papi".',
+            audio: new Audio('./frases/maggie/papi.mp3')
+        },
+        {
+            text: 'Sonido de chupete',
+            audio: new Audio('./frases/maggie/chupete.mp3')
         }
     ]
 }
