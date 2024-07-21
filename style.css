@@ -5,6 +5,7 @@
 
 body {
     overflow: hidden;
+    margin: 0;
 }
 
 section {
@@ -17,7 +18,6 @@ section > img {
     height: 100%;
     width: 100%;
     position: absolute;
-    margin: 0 auto;
 }
 
 #familia {
