@@ -29,13 +29,13 @@ section > img {
     justify-content: center;
 }
 
-div > img {
+#familia > img {
     height: 70vh;
     margin: 10px;
     transition: transform 0.3s ease;
 }
 
-div > img:hover {
+#familia > img:hover, #moe > img:hover, #barney > img:hover, #lenny > img:hover, #carl > img:hover {
     transform: translate(0%, -10%);
     cursor: pointer;
 }
@@ -61,6 +61,98 @@ div > img:hover {
 }
 
 #text_block h3 {
-    font-size: 38px;
     text-align: center;
+}
+
+#ir_ciudad {
+    top: 10px;
+    right: 10px;
+    position: absolute;
+    font-family: 'Fuente';
+    font-weight: bolder;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+}
+
+#ir_ciudad h3 {
+    background-color: rgb(237, 240, 243, .6);
+    height: 9vh;
+    width: 18vw;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 40%;
+}
+
+#ir_ciudad h3:hover {
+    color: blue;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#taberna {
+    position: relative;
+}
+
+#taberna_frente {
+    width: 90px;
+    top: 75vh;
+    left: 38vw;
+}
+
+#nombre_taberna {
+    top: 440px;
+    left: 505px;
+    text-align: center;
+    width: 130px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Fuente';
+    font-size: .8em;
+    background-color: rgb(237, 240, 243, .6);
+    border-radius: 40%;
+}
+
+#nombre_taberna, #taberna_frente {
+    position: absolute;
+    transition: transform 0.5s ease;
+}
+ 
+.container:hover #nombre_taberna, .container:hover #taberna_frente {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+#moe > img {
+    position: absolute;
+    height: 290px;
+    top: 160px;
+    left: 480px;
+}
+
+#barney > img {
+    position: absolute;
+    height: 360px;
+    top: 250px;
+    left: 150px;
+}
+
+#lenny > img {
+    position: absolute;
+    height: 220px;
+    top: 100px;
+    right: 320px;
+}
+
+#carl > img {
+    position: absolute;
+    height: 350px;
+    top: 150px;
+    right: 70px;
 }
